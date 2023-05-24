@@ -1,0 +1,51 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>nikah-forever</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="script.js" charset="utf-8"></script>
+
+
+  <div class="video-wrapper">
+    <video autoplay muted loop id="myVideo">
+      <source src="pexels-august-de-richelieu-8179582-3840x2160-25fps.mp4">
+    </video>
+    <div class="video-overlay">
+    </div>
+    <div class="header-content">
+      <div>
+        <h1>Find your Forever partner</h1>
+        <div class="header-content-cta">
+          <div>Start Looking</div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="" style="margin-left: 20px;">
+        <img height="35px" src="https://www.nikahforever.com/template_canvas/images/Logo-White.png" />
+      </div>
+      <div class="navbar-login" style="margin-right: 20px">
+        <div>Login</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-popup" id="myForm">
+    <form class="form-container">
+      <h1>Chat</h1>
+
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
